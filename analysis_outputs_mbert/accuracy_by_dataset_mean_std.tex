@@ -1,0 +1,21 @@
+% Requires \usepackage{booktabs} and \usepackage{graphicx} in the article preamble.
+\begin{table*}[t]
+\centering
+\caption{mBERT accuracy by dataset. Values are reported as mean $\pm$ standard deviation over random seeds. Best values within each dataset are shown in bold.}
+\label{tab:mbert_accuracy_by_dataset}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|c|cccc|cccc}
+\toprule
+\textbf{Model} & \multicolumn{1}{c|}{\textbf{Monolingual}} & \multicolumn{4}{c|}{\textbf{Multilingual}} & \multicolumn{4}{c}{\textbf{Cross-lingual}} \\
+\cmidrule(lr){2-2}\cmidrule(lr){3-6}\cmidrule(lr){7-10}
+ & \textbf{En-En} & \textbf{Ar-Ar} & \textbf{Fr-Fr} & \textbf{Ru-Ru} & \textbf{Zh-Zh} & \textbf{En-Ar} & \textbf{En-Fr} & \textbf{En-Ru} & \textbf{En-Zh} \\
+\midrule
+mBERT (PairCLS) & 81.34 $\pm$ 0.67 & 73.89 $\pm$ 0.61 & 76.53 $\pm$ 1.22 & 70.85 $\pm$ 0.96 & 69.84 $\pm$ 1.22 & 55.51 $\pm$ 1.73 & 65.90 $\pm$ 2.38 & 61.74 $\pm$ 2.06 & 55.31 $\pm$ 1.57 \\
+mBERT (MarkCLS) & 83.77 $\pm$ 1.04 & \textbf{75.10 $\pm$ 0.90} & 79.09 $\pm$ 0.64 & 73.23 $\pm$ 0.74 & 74.34 $\pm$ 2.10 & 59.52 $\pm$ 2.16 & 71.03 $\pm$ 2.37 & 67.00 $\pm$ 1.58 & 61.49 $\pm$ 3.04 \\
+mBERT (TargetSim) & \textbf{85.15 $\pm$ 0.93} & 72.73 $\pm$ 1.79 & \textbf{80.51 $\pm$ 1.13} & 76.68 $\pm$ 0.79 & \textbf{79.96 $\pm$ 0.92} & 66.21 $\pm$ 4.42 & 80.20 $\pm$ 2.68 & 78.25 $\pm$ 2.67 & 80.79 $\pm$ 3.09 \\
+mBERT (TargetPOS) & 84.65 $\pm$ 1.52 & 74.15 $\pm$ 1.21 & \textbf{80.51 $\pm$ 1.04} & \textbf{77.20 $\pm$ 0.85} & 79.67 $\pm$ 1.07 & 67.60 $\pm$ 2.62 & 80.43 $\pm$ 1.18 & 78.40 $\pm$ 1.51 & 80.97 $\pm$ 2.27 \\
+mBERT (GloSeGAT) & 84.89 $\pm$ 0.72 & 72.77 $\pm$ 1.13 & 78.18 $\pm$ 1.00 & 76.40 $\pm$ 0.92 & 78.53 $\pm$ 1.14 & \textbf{72.11 $\pm$ 2.87} & \textbf{82.47 $\pm$ 1.50} & \textbf{81.14 $\pm$ 1.29} & \textbf{84.47 $\pm$ 2.03} \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

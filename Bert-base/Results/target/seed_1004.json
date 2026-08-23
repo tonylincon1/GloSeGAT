@@ -1,0 +1,170 @@
+{
+  "config": {
+    "variant": "glowic_target",
+    "data_root": "/content/mcl-wic/extracted",
+    "output_dir": "/content/drive/MyDrive/MCL-WiC/Experiments/Bert-base/Results/target",
+    "model_name": "bert-base-multilingual-cased",
+    "n_trials": 15,
+    "n_seed_runs": 15,
+    "max_epochs": 5,
+    "patience": 2,
+    "max_len": 128,
+    "seed": 42,
+    "seed_start": 1000,
+    "train_limit": null,
+    "eval_limit": null,
+    "num_workers": 2,
+    "device": "cuda",
+    "freeze_encoder": false,
+    "download_data": true
+  },
+  "best_hparams": {
+    "lr_encoder": 1.2170293883738781e-05,
+    "lr_head": 0.0001563676518390185,
+    "weight_decay": 0.0034388521115218396,
+    "dropout": 0.3227961206236346,
+    "batch_size": 4,
+    "warmup_ratio": 0.07801020317667162
+  },
+  "run": {
+    "seed": 1004,
+    "hparams": {
+      "lr_encoder": 1.2170293883738781e-05,
+      "lr_head": 0.0001563676518390185,
+      "weight_decay": 0.0034388521115218396,
+      "dropout": 0.3227961206236346,
+      "batch_size": 4,
+      "warmup_ratio": 0.07801020317667162
+    },
+    "best_dev_accuracy": 0.846,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loop_loss": 0.5979890435880516,
+        "dev": {
+          "accuracy": 0.817,
+          "precision": 0.8065764023210832,
+          "recall": 0.834,
+          "f1": 0.8200589970501475,
+          "loss": 0.5492210191388149
+        }
+      },
+      {
+        "epoch": 2,
+        "train_loop_loss": 0.48856946974433824,
+        "dev": {
+          "accuracy": 0.834,
+          "precision": 0.8150943396226416,
+          "recall": 0.864,
+          "f1": 0.8388349514563107,
+          "loss": 0.8056254868857468
+        }
+      },
+      {
+        "epoch": 3,
+        "train_loop_loss": 0.2321232961248816,
+        "dev": {
+          "accuracy": 0.832,
+          "precision": 0.8097014925373134,
+          "recall": 0.868,
+          "f1": 0.8378378378378378,
+          "loss": 1.1363201618819774
+        }
+      },
+      {
+        "epoch": 4,
+        "train_loop_loss": 0.08641612080843357,
+        "dev": {
+          "accuracy": 0.846,
+          "precision": 0.8326923076923077,
+          "recall": 0.866,
+          "f1": 0.8490196078431372,
+          "loss": 1.3704919240639826
+        }
+      },
+      {
+        "epoch": 5,
+        "train_loop_loss": 0.02377425633025424,
+        "dev": {
+          "accuracy": 0.844,
+          "precision": 0.806049822064057,
+          "recall": 0.906,
+          "f1": 0.8531073446327684,
+          "loss": 1.5420460045685547
+        }
+      }
+    ],
+    "final": {
+      "dev.en-en": {
+        "accuracy": 0.846,
+        "precision": 0.8326923076923077,
+        "recall": 0.866,
+        "f1": 0.8490196078431372,
+        "loss": 1.3704919240639826
+      },
+      "test.ar-ar": {
+        "accuracy": 0.736,
+        "precision": 0.742798353909465,
+        "recall": 0.722,
+        "f1": 0.7322515212981744,
+        "loss": 2.524635525105342
+      },
+      "test.en-en": {
+        "accuracy": 0.848,
+        "precision": 0.8307984790874525,
+        "recall": 0.874,
+        "f1": 0.8518518518518519,
+        "loss": 1.2945426024694757
+      },
+      "test.fr-fr": {
+        "accuracy": 0.811,
+        "precision": 0.7853211009174312,
+        "recall": 0.856,
+        "f1": 0.8191387559808613,
+        "loss": 1.6798623730116857
+      },
+      "test.ru-ru": {
+        "accuracy": 0.772,
+        "precision": 0.7419928825622776,
+        "recall": 0.834,
+        "f1": 0.7853107344632768,
+        "loss": 2.279524727840047
+      },
+      "test.zh-zh": {
+        "accuracy": 0.803,
+        "precision": 0.7821229050279329,
+        "recall": 0.84,
+        "f1": 0.8100289296046287,
+        "loss": 1.8968690030638373
+      },
+      "test.en-ar": {
+        "accuracy": 0.666,
+        "precision": 0.8516949152542372,
+        "recall": 0.402,
+        "f1": 0.5461956521739131,
+        "loss": 3.5189106644460226
+      },
+      "test.en-fr": {
+        "accuracy": 0.812,
+        "precision": 0.8696682464454977,
+        "recall": 0.734,
+        "f1": 0.7960954446854663,
+        "loss": 1.6613148721146427
+      },
+      "test.en-ru": {
+        "accuracy": 0.794,
+        "precision": 0.8909574468085106,
+        "recall": 0.67,
+        "f1": 0.7648401826484018,
+        "loss": 1.8521990411303415
+      },
+      "test.en-zh": {
+        "accuracy": 0.819,
+        "precision": 0.9186351706036745,
+        "recall": 0.7,
+        "f1": 0.7945516458569807,
+        "loss": 1.6579181794414513
+      }
+    }
+  }
+}

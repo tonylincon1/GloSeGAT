@@ -1,0 +1,27 @@
+RankResult(rankdf=
+                   meanrank  median   mad ci_lower ci_upper effect_size   magnitude effect_size_above magnitude_above
+mBERT (PairCLS)    4.491667   72.75  2.25     70.6     74.9         0.0  negligible               0.0      negligible
+mBERT (GloSeGAT)   3.275000   76.90  1.65     75.4     78.5   -1.418763       large         -1.418763           large
+mBERT (MarkCLS)    3.083333   74.80  1.45     74.0     77.8   -0.730528      medium           0.91193           large
+mBERT (TargetSim)  2.291667   77.95   2.4     75.8     80.4   -1.507754       large         -1.071572           large
+mBERT (TargetPOS)  1.858333   78.25   1.9     76.4     80.3   -1.781482       large         -0.093485      negligible
+pvalue=1.3959626139336007e-20
+cd=0.7874338535420145
+omnibus=friedman
+posthoc=nemenyi
+all_normal=False
+pvals_shapiro=[np.float64(0.002640262774168845), np.float64(0.10696906224008164), np.float64(0.003122062238293918), np.float64(0.0008291720281125366), np.float64(0.016028285710660756)]
+homoscedastic=False
+pval_homogeneity=0.04128557003451095
+homogeneity_test=levene
+alpha=0.05
+alpha_normality=0.01
+num_samples=60
+posterior_matrix=
+None
+decision_matrix=
+None
+rope=None
+rope_mode=None
+effect_size=akinshin_gamma
+force_mode=None)
