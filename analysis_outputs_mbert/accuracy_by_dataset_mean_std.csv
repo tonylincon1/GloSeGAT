@@ -1,0 +1,7 @@
+model,monolingual,multilingual,multilingual,multilingual,multilingual,cross-lingual,cross-lingual,cross-lingual,cross-lingual
+,En-En,Ar-Ar,Fr-Fr,Ru-Ru,Zh-Zh,En-Ar,En-Fr,En-Ru,En-Zh
+mBERT (PairCLS),81.34 ± 0.67,73.89 ± 0.61,76.53 ± 1.22,70.85 ± 0.96,69.84 ± 1.22,55.51 ± 1.73,65.90 ± 2.38,61.74 ± 2.06,55.31 ± 1.57
+mBERT (MarkCLS),83.77 ± 1.04,\textbf{75.10 ± 0.90},79.09 ± 0.64,73.23 ± 0.74,74.34 ± 2.10,59.52 ± 2.16,71.03 ± 2.37,67.00 ± 1.58,61.49 ± 3.04
+mBERT (TargetSim),\textbf{85.15 ± 0.93},72.73 ± 1.79,\textbf{80.51 ± 1.13},76.68 ± 0.79,\textbf{79.96 ± 0.92},66.21 ± 4.42,80.20 ± 2.68,78.25 ± 2.67,80.79 ± 3.09
+mBERT (TargetPOS),84.65 ± 1.52,74.15 ± 1.21,\textbf{80.51 ± 1.04},\textbf{77.20 ± 0.85},79.67 ± 1.07,67.60 ± 2.62,80.43 ± 1.18,78.40 ± 1.51,80.97 ± 2.27
+mBERT (GloSeGAT),84.89 ± 0.72,72.77 ± 1.13,78.18 ± 1.00,76.40 ± 0.92,78.53 ± 1.14,\textbf{72.11 ± 2.87},\textbf{82.47 ± 1.50},\textbf{81.14 ± 1.29},\textbf{84.47 ± 2.03}

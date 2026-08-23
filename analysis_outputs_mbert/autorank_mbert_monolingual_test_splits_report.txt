@@ -1,0 +1,27 @@
+RankResult(rankdf=
+                   meanrank       mean       std   ci_lower   ci_upper effect_size   magnitude effect_size_above magnitude_above
+mBERT (PairCLS)    4.933333  81.340000  0.671672  80.823741  81.856259         0.0  negligible               0.0      negligible
+mBERT (MarkCLS)    3.233333  83.773333  1.043666  82.971154  84.575513   -2.772698       large         -2.772698           large
+mBERT (GloSeGAT)   2.433333  84.886667  0.717004  84.335565  85.437769   -5.105263       large          -1.24345           large
+mBERT (TargetPOS)  2.433333  84.653333  1.521215  83.484101  85.822566   -2.817824       large          0.196217      negligible
+mBERT (TargetSim)  1.966667  85.153333  0.930335  84.438261  85.868405   -4.699827       large          -0.39655           small
+pvalue=1.014271486007037e-06
+cd=1.574867707084029
+omnibus=friedman
+posthoc=nemenyi
+all_normal=True
+pvals_shapiro=[np.float64(0.6061956796308949), np.float64(0.8893575709206593), np.float64(0.11481941108368843), np.float64(0.9500707582062231), np.float64(0.8152552828246404)]
+homoscedastic=False
+pval_homogeneity=0.01469767632786421
+homogeneity_test=bartlett
+alpha=0.05
+alpha_normality=0.01
+num_samples=15
+posterior_matrix=
+None
+decision_matrix=
+None
+rope=None
+rope_mode=None
+effect_size=cohen_d
+force_mode=None)

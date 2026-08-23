@@ -1,0 +1,6 @@
+model,backbone,variant,path,n_seed_runs,best_optuna_dev_accuracy
+mBERT (GloSeGAT),mBERT,GloSeGAT,/Users/antonio/Desktop/repositorios/Experiments/Bert-base/Results/gat,15,0.846
+mBERT (MarkCLS),mBERT,MarkCLS,/Users/antonio/Desktop/repositorios/Experiments/Bert-base/Results/marked,15,0.855
+mBERT (PairCLS),mBERT,PairCLS,/Users/antonio/Desktop/repositorios/Experiments/Bert-base/Results/cls,15,0.838
+mBERT (TargetPOS),mBERT,TargetPOS,/Users/antonio/Desktop/repositorios/Experiments/Bert-base/Results/target_pos,15,0.839
+mBERT (TargetSim),mBERT,TargetSim,/Users/antonio/Desktop/repositorios/Experiments/Bert-base/Results/target,15,0.85
