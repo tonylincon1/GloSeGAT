@@ -236,4 +236,13 @@ graph-attended features, element-wise comparisons, and cosine similarities.
 
 If you use this code, cite the accompanying paper:
 
-Final citation metadata will be added after publication.
+```bibtex
+@inproceedings{RamosNeto2026GloSeGAT,
+  author = {Ramos Neto, Antonio dos Santos and Cavalcanti, Mateus Barbosa de Souza and Oliveira, Lais Silva and Bezerra, Byron Leite Dantas},
+  title = {A Gloss-Sense Graph Attention Architecture for Semantic Pattern Recognition in Multilingual Word-in-Context Disambiguation},
+  booktitle = {Proceedings of the 39th Conference on Graphics, Patterns and Images (SIBGRAPI)},
+  year = {2026},
+  address = {Goiania, GO, Brazil},
+  url = {http://urlib.net/ibi/8JMKD2USNRW34M/4GARQDB}
+}
+```
